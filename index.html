@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b635a6ee7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="heading">Currency Converter</h1>
+            <div class="amt">
+                <p>Enter Amount</p>
+                <input type="text" id="amount" placeholder="0">
+            </div>
+            <div class="para">
+                <div>
+                    <p>From</p>
+                </div>
+                <div>
+                    <p>To</p>
+                </div>
+            </div>
+            <div class="exchange-box">
+                <div class="country">
+                    <div class="input-box">
+                        <img src="https://countryflagsapi.com/png/ind" alt="Flag" id="from-img">
+                        <select name="from" id="from" onchange="changeFromFlag()">
+                            <option value="IND - Indian Rupee">IND - Indian Rupee</option>
+                            <option value="USD - American Doller">USD - American Doller</option>
+                            <option value="LKR - Sri Lankan Rupee">LKR - Sri Lankan Rupee</option>
+                            <option value="ILS - Israeli Shekel">ILS - Israeli Shekel</option>
+                            <option value="CNY - Chinese Yuan">CNY - Chinese Yuan </option>
+                            <option value="JPY - Japanese Yen">JPY - Japanese Yen</option>
+                            <option value="NPR - Nepalese Rupee">NPR - Nepalese Rupee</option>
+                            <option value="PKR - Pakistani Rupee">PKR - Pakistani Rupee</option>
+                            <option value="AUD - Australian Doller">AUD - Australian Doller</option>
+                            <option value="RUB - Russian Ruble">RUB - Russian Ruble</option>
+                            <option value="CAD - Canadian Doller">CAD - Canadian Doller</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="exchange-icone">
+                    <i class="fas fa-right-left" id="icone"></i>
+                </div>
+                <div class="country">
+                    <div class="input-box">
+                        <img src="https://countryflagsapi.com/png/usa" alt="Flag" id="to-img">
+                        <select name="" id="to" onchange="changetoFlag()">
+                            <option value="USD - American Doller">USD - American Doller</option>
+                            <option value="CNY - Chinese Yuan">CNY - Chinese Yuan </option>
+                            <option value="AUD - Australian Doller">AUD - Australian Doller</option>
+                            <option value="PKR - Pakistani Rupee">PKR - Pakistani Rupee</option>
+                            <option value="IND - Indian Rupee">IND - Indian Rupee</option>
+                            <option value="CAD - Canadian Doller">CAD - Canadian Doller</option>
+                            <option value="JPY - Japanese Yen">JPY - Japanese Yen</option>
+                            <option value="ILS - Israeli Shekel">ILS - Israeli Shekel</option>
+                            <option value="RUB - Russian Ruble">RUB - Russian Ruble</option>
+                            <option value="LKR - Sri Lankan Rupee">LKR - Sri Lankan Rupee</option>
+                            <option value="NPR - Nepalese Rupee">NPR - Nepalese Rupee</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="display">0 IND = 0 USD</div>
+            <br>
+            <br>
+            <div class="btn">
+                <button id="submit-btn">Get Exchange Rate</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,71 @@
+https://countryflagsapi.com/png/ca
+
+
+Country flag Code:
+
+can :canada
+bgr : Bulgaria
+bra : Brazil
+btn : Bhutan
+blr : Belarus
+can : Canada
+che : Switzerland
+chn : China
+chl : Chile
+col : Colombia
+deu : Germany
+dnk : Denmark
+dza : Algeria
+egy : Egypt
+esp : Spain
+eur : European Union
+fin : Finland
+fji : Fiji
+fra : France
+gb-eng - England
+isr : Israel
+ind : India
+jpn : Japan
+lka : Sri Lanka
+npl : Nepal
+pak : Pakistan
+rus : Russia
+usa : America
+aus : Australia
+bgd: Bangladesh
+
+
+Country Currency Code:
+
+EUR : Euro
+CAD : Canadian Doller
+AUD : Australian Doller
+JPY : Japanese Yen
+INR : Indian Rupee
+PKR : Pakistani Rupee
+RUB : Russian Ruble
+CNY : Chinese Yuan 
+ILS : Israeli Shekel
+LKR : Sri Lankan Rupee
+NPR : Nepalese Rupee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
